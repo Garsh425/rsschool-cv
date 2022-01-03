@@ -1,7 +1,11 @@
 # Kirill Korinets
+# contacts
 +79269168394 Garsh#4242 (@Garsh425)
+# Personal Information
 I am good at facing challenges. I am willing to learn further.
+# Skills 
 Git, JS Basics, HTML, CSS.
+# Example of code
 ```<h2>Форма поиска</h2>
 <form action="/people">
   <label>
@@ -24,6 +28,9 @@ Git, JS Basics, HTML, CSS.
   <button>отправить</button>
 </form>
 ```
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код. https://github.com/Garsh425/rsschool-cv.git
-Образование RS School
-Английский язык B2
+# Experience
+ https://github.com/Garsh425/rsschool-cv.git
+# Education
+RS School
+# Languages
+English B2
