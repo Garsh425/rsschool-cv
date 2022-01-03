@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
   <title>CV</title>
   <link rel="icon" href="assets/1295024103.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"
-</head>
+    <link rel="stylesheet" href="style.css">
 <body>
-  <nav>
-  <a href="#contacts">Contacts</a>
-  <a href="#summary">Summary</a>
-  <a href="#example">Example of Code</a>
-  <a href="#experience">Experience</a>
-  <a href="#courses">Courses</a>
-  <a href="#languages">Languages</a>
-  </nav>
-    <main>
+  <header> 
     <h1 class="text">Kirill Korinets</h1>
     <p class="text"><img src="https://github.com/Garsh425/rsschool-cv/blob/rsschool-cv-html/IMG_5961.jpg?raw=true" alt="my photo" width="200" height="140"></p>
+  </header>
+  <nav>
+    <a href="#contacts">Contacts</a>
+    <a href="#summary">Summary</a>
+    <a href="#example">Example of Code</a>
+    <a href="#experience">Experience</a>
+    <a href="#courses">Courses</a>
+    <a href="#languages">Languages</a>
+  </nav>
+    <main>
     <h2 class="text" id="contacts">Contacts</h2>
     <ul class="border">
         <li>Telephone number: +79269168394</li>
@@ -36,28 +35,28 @@
         <li>CSS</li>
     </ul>
     <h2 class="text" id="example">Example of Code</h2>
-  <xmp class="border">
-<h2>Форма поиска</h2>
-<form action="/people">
-  <label>
-        Введите ваш запрос
-        <input type="text">
-  </label>
-    <br>
-    <label>
-      dasdas
-      <input type="text">
-    </label>
-    <br>
-  <select multiple>
-    <option disabled>В каком разделе искать?</option>
-    <option>JS</option>
-    <option>HTML</option>
-    <option>CSS</option>
-  </select>
-  <button>отправить</button>
-</form>  
-  </xmp>
+  <pre class="border"><code>
+    &lt;h2&gt;Форма поиска&lt;/h2&gt;
+    &lt;form action=&quot;/people&quot;&gt;
+      &lt;label&gt;
+            Введите ваш запрос
+            &lt;input type=&quot;text&quot;&gt;
+      &lt;/label&gt;
+        &lt;br&gt;
+        &lt;label&gt;
+          dasdas
+          &lt;input type=&quot;text&quot;&gt;
+        &lt;/label&gt;
+        &lt;br&gt;
+      &lt;select multiple&gt;
+        &lt;option disabled&gt;В каком разделе искать?&lt;/option&gt;
+        &lt;option&gt;JS&lt;/option&gt;
+        &lt;option&gt;HTML&lt;/option&gt;
+        &lt;option&gt;CSS&lt;/option&gt;
+      &lt;/select&gt;
+      &lt;button&gt;отправить&lt;/button&gt;
+    &lt;/form&gt;   
+  </code></pre>
   <h2 class="text" id="experience">Experience</h2>
   <p class="text"><a href='https://github.com/Garsh425/rsschool-cv.git'>My GitHub</a></p>
   <h2 class="text" id="courses">Courses</h2>
@@ -69,10 +68,10 @@
     <li>English B2</li>
   </ul>
     </main>
+    <footer>
+      <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS Schoold" height="100" width="100"></a>
+      <a href='https://github.com/Garsh425/rsschool-cv.git'>My GitHub</a>
+      <p>2022</p>
+    </footer>
 </body>
-<footer>
-  <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" height="100" width="100"></a>
-  <a href='https://github.com/Garsh425/rsschool-cv.git'>My GitHub</a>
-  <p>2022</p>
-</footer>
 </html>
