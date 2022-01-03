@@ -32,5 +32,5 @@ Git, JS Basics, HTML, CSS.
  https://github.com/Garsh425/rsschool-cv.git
 # Education
 RS School
-# Languages
+# Languages2
 English B2
